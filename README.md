@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.10%2B-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ##  Overview
 This repository contains the official PyTorch implementation for the project:  
@@ -20,7 +19,7 @@ We propose a **Spatiotemporal Graph Neural Network (ST-GNN)** that models the gl
 ---
 
 ## Architecture
-![Model Architecture](arch.jpeg)
+![Model Architecture](archd.png)
 *Fig 1. The proposed ST-GNN pipeline combining GCN and GRU layers.*
 
 The model takes a sequence of financial graph snapshots ($G_{t-1}, G_t, G_{t+1}$) and projects a latent risk score for every country-to-country link.
